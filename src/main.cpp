@@ -3,8 +3,10 @@
 #define echoPin 10
 void setup() {
 // write your initialization code here
+    Serial.begin(9600);
     pinMode(trigPin, OUTPUT);
     pinMode(echoPin, INPUT);
+
 
 }
 
