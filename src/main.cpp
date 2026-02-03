@@ -5,6 +5,7 @@ void setup() {
 // write your initialization code here
     pinMode(trigPin, OUTPUT);
     pinMode(echoPin, INPUT);
+
 }
 
 void loop() {
